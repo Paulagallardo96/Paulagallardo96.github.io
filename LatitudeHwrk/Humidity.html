@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Latitude</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- <style>.title-header {font-size: 60px;
+        color: rgb(58, 211, 206)
+    }</style> -->
+</head>
+
+<body class="background">
+  <nav class="navbar navbar-default latnavstyle">
+    <div class="container-fluid navstyle">
+    <div class="navbar-header navstyle">
+ <!-- Brand and toggle get grouped for better mobile display -->
+                  
+      <a class="navbar-brand" href="index.html">Latitude</a>
+
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class = "icon-bar"></span>
+        <span class = "icon-bar"></span>
+        <span class = "icon-bar"></span>
+      </button> 
+    </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">     
+          <ul class = "nav navbar-nav navbar-right">
+
+            <li class = "active"><a href = "#">Home</a></li>
+            <li class = "dropdown">
+              <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown" role = "button" aria-haspopup="true" aria-expanded="false" id="dropdownMenu1" >Plots<b class = "caret"></b></a>
+              <ul class = "dropdown-menu" aria-labelledby="dropdownMenu1">
+                  <li><a href = "#">Max Temperature</a></li>
+                  <li><a href = "#">Humidity</a></li>
+                  <li><a href = "#">Cloudiness</a></li>
+                  <li><a href = "#">Wind Speed</a></li>
+              </ul>
+            </li>
+            <li><a href = "latitude1.html">Comparison</a></li>
+            <li><a href = "#">Data</a></li>
+
+
+          </ul>
+        </nav>
+
+      </div>
+      <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-7">
+        <div class="box-container">
+            <!-- <div class="jumbotron"> -->
+                <div class="title-header">
+              <h2 class="title-header">Humidity</h2>
+            </div>
+              <img src="Humidity.png" alt="City Latitude vs. Cloudiness" width="700" height="450" class="pull-left">
+              <p class = "paragraphs">As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered.</p>
+            </div>
+        <!-- </div> -->
+        </div>
+      
+            <div class="col-md-5">
+            <div class="box-container">
+                <!-- <div class="jumbotron"> -->
+                  <h3>Visualization</h3>
+               
+
+                  <img src="MaxTemp.png" alt="City Latitude vs. Max Temperature" width="180" height="160">
+                  <img src="Humidity.png" alt="City Latitude vs. Humidity" width="180" height="160">
+                  <img src="Cloudiness.png" alt="City Latitude vs. Cloudiness" width="180" height="160">
+                  <img src="WindSpeed.png" alt="City Latitude vs. Wind Speed" width="180" height="160">
+
+                </div>
+                </div>
+            </div>
+            </div>
+          </div>
+
+
+  
+  </div>
+
+</body>
